@@ -1,0 +1,48 @@
+a2o.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/a2o.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/a2o.c -o a2o.lo 
+kernel/main.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/main.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/main.c -o kernel/main.lo 
+kernel/memory.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/memory.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/memory.c -o kernel/memory.lo 
+kernel/exception.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/exception.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/exception.c -o kernel/exception.lo 
+kernel/debug.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/debug.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/debug.c -o kernel/debug.lo 
+kernel/backtrace.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/backtrace.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/backtrace.c -o kernel/backtrace.lo 
+kernel/object.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/object.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/object.c -o kernel/object.lo 
+kernel/array.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/array.c -o kernel/array.lo 
+kernel/string.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/string.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/string.c -o kernel/string.lo 
+kernel/fcall.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/fcall.c -o kernel/fcall.lo 
+kernel/require.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/require.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/require.c -o kernel/require.lo 
+kernel/file.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/file.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/file.c -o kernel/file.lo 
+kernel/operators.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/operators.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/operators.c -o kernel/operators.lo 
+kernel/math.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/math.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/math.c -o kernel/math.lo 
+kernel/concat.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/concat.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/concat.c -o kernel/concat.lo 
+kernel/variables.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/variables.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/variables.c -o kernel/variables.lo 
+kernel/filter.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/filter.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/filter.c -o kernel/filter.lo 
+kernel/iterator.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/iterator.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/iterator.c -o kernel/iterator.lo 
+kernel/time.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/time.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/time.c -o kernel/time.lo 
+kernel/exit.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/exit.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/kernel/exit.c -o kernel/exit.lo 
+a2o/mapper.lo: /Users/fgorsky/projects/openitstudio/a2o/ext/a2o/mapper.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/fgorsky/projects/openitstudio/a2o/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/fgorsky/projects/openitstudio/a2o/ext/a2o/mapper.zep.c -o a2o/mapper.lo 
+$(phplibdir)/a2o.la: ./a2o.la
+	$(LIBTOOL) --mode=install cp ./a2o.la $(phplibdir)
+
+./a2o.la: $(shared_objects_a2o) $(A2O_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS)  -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_a2o) $(A2O_SHARED_LIBADD)
+
