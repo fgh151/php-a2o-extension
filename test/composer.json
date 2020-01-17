@@ -1,0 +1,29 @@
+{
+  "name": "a2o/test",
+  "description": "a2o test",
+  "homepage": "https://github.com/",
+  "type": "project",
+  "license": "mit",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Fedor B Gorsky",
+      "email": "fedor@support-pc.org"
+    }
+  ],
+  "config": {
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "2.0.29"
+  }
+}

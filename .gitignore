@@ -1,3 +1,4 @@
 .idea
 compile.log
 compile-errors.log
+test/vendor
